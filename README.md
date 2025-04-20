@@ -34,3 +34,6 @@ Create a resource group in Microsoft Azure called osTicket. Then, make a virtual
 
 Next, connect to the VM using **Remote Desktop Protocol (RDP)**. To do this, go to the **Azure portal**, find the **Public IPv4 address** of the VM, and copy it. Then, use that IP address to start the RDP connection.
 
+![image](https://github.com/user-attachments/assets/f3cbb380-d11b-437f-8f49-5a920c3114df)
+Next, you will want to extract and download https://drive.usercontent.google.com/open?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD. In order to have the file on your remote desktop. This will help you stay organized as well as make the process easier when looking for and creating new files. Once you have the file downloaded in your library. Continue to place the file on your desktop.
+
