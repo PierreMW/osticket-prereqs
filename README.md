@@ -76,7 +76,24 @@ Next step is to install the file mysql-5.5.62-win32 from the installation folder
 ![image](https://github.com/user-attachments/assets/67b1065d-16a3-4ee7-af2f-4e4766b3f9cd)
 ![image](https://github.com/user-attachments/assets/cf017b29-a78d-4ac8-8ab1-99f1c50a2196)
 
+Then you are going to open IIS as an administrator through the remote desktop. Next look for the option of PHP Manager. Continue to register new PHP version and connect php-cgi to the php manager. Once finished stop and start the system to test.
 
-Then you are going to open IIS as an administrator. This is registering the PHP internally through IIS. 
+![image](https://github.com/user-attachments/assets/aec7a3de-3b4d-4cf2-a890-97f4199feda5)
+![image](https://github.com/user-attachments/assets/1c02fd7a-f310-49c9-8a5d-6832061d9cca)
+
+From the osTicket-installation-files folder. Take osTicket-v1.15.8.zip and copy the upload folder to C:\inetpub\wwwroot. Then, within C:\inetpub\wwwroot, rename the upload folder to osTicket.
+
+![image](https://github.com/user-attachments/assets/0b781aec-2c5e-40fe-b094-5f3a30071a62)
+
+You are going to then sign back into IIS Manager to enable the specific PHP extensions. To get there you will go to IIS through remote desktop > osticket-vm > sites > default web site > osTicket > enable or disable an extension.
+
+![image](https://github.com/user-attachments/assets/eb65b86e-b5e3-4406-8e4b-6963175dd3a0)
+
+Once you are here you will enable php_imap.dll, php_intl.dll, and php_opache_dll. Soon after that refresh osTicket server. It should show that the Intl extension is enabled.
+
+
+
+
+
 
 
