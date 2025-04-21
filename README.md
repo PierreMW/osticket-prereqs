@@ -46,4 +46,19 @@ Following, you will want to open your settings on your remote desktop and go to 
 
 Prior to making sure CGI is included. The next step will be to install PHP Manager using the osTicket file we have on our remote desktop. 
 
+![image](https://github.com/user-attachments/assets/ee8d2866-239d-4f55-8528-9322e4b2e1d5)
+
+Within the same file that we downloaded PHP. It is also mandatory that you install the rewrite module. 
+
+![image](https://github.com/user-attachments/assets/060b94c9-0f5b-4db9-9ae8-214044bf5c43)
+
+Then you will go to your library and create a new folder under your C drive and title it 'PHP'. This new folder will be for the documents for the osTicket files.
+
+![image](https://github.com/user-attachments/assets/abdaeeb8-a786-44cc-a750-2d42dbd51e79)
+
+![image](https://github.com/user-attachments/assets/c4b23947-deee-4f17-94e2-a62b1be42f66)
+
+![image](https://github.com/user-attachments/assets/ea9dae0e-b40d-4dbc-86bf-3da1d3a03e8d)
+
+![image](https://github.com/user-attachments/assets/0534cb7f-7bbb-4305-b89b-927e8cf92914)
 
