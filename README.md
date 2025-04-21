@@ -62,3 +62,13 @@ Then you will go to your library and create a new folder under your C drive and 
 
 ![image](https://github.com/user-attachments/assets/0534cb7f-7bbb-4305-b89b-927e8cf92914)
 
+Next you are going to right click the file php-7.3.8-nts.Win32-VC15-x86 and choose the option to extract all. Browse for where the files will go which is labeled PHP. Once done the files from php-7.3.8-nts.Win32-VC15-x86 should now be in PHP.
+
+![image](https://github.com/user-attachments/assets/c97c7c8a-0e2f-47b6-bdb5-dd7e272862c4)
+
+Following that, install VC_redist.x86.exe from the osTicket installation folder to ensure the  Visual C++ Redistributable components are in order.
+
+![image](https://github.com/user-attachments/assets/9aa412e8-3274-488f-9a54-d945675ef58e)
+
+Next step is to install the file mysql-5.5.62-win32. Sequel will help maintain and store all data. For instance user accounts, ticketing information to make sure osTicket runs proficiently. 
+
