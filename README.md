@@ -70,5 +70,8 @@ Following that, install VC_redist.x86.exe from the osTicket installation folder 
 
 ![image](https://github.com/user-attachments/assets/9aa412e8-3274-488f-9a54-d945675ef58e)
 
-Next step is to install the file mysql-5.5.62-win32. Sequel will help maintain and store all data. For instance user accounts, ticketing information to make sure osTicket runs proficiently. 
+Next step is to install the file mysql-5.5.62-win32 from the installation folder. Sequel will help maintain and store all data. For instance user accounts, ticketing information to make sure osTicket runs proficiently. 
 
+![image](https://github.com/user-attachments/assets/56b838d3-3573-44a0-802a-b8260e0b1d70)
+
+Then you are going to open IIS as an administrator. This is registering the PHP internally through IIS. 
