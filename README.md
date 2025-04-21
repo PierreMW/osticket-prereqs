@@ -91,6 +91,17 @@ You are going to then sign back into IIS Manager to enable the specific PHP exte
 
 Once you are here you will enable php_imap.dll, php_intl.dll, and php_opache_dll. Soon after that refresh osTicket server. It should show that the Intl extension is enabled.
 
+![image](https://github.com/user-attachments/assets/2790ac8a-8597-4cf2-be98-4e0c4a990d56)
+The next step is to change the title ost-samepleconfig.php and rename the it to ost-config.php in the same directory as wwwroot. Do this by right clicking on the name and choosing rename. 
+
+![image](https://github.com/user-attachments/assets/e011f944-57b6-4b53-8a01-ecac37000203)
+Right-click on the ost-config.php file and choose Properties. Go to the Security tab, disable all inheritance, then remove all current permissions, and assign full control to everyone.
+
+![image](https://github.com/user-attachments/assets/076baf32-26f8-429e-92f1-86cd0c7df54c)
+Lastly to complete osTicket setup, open your browser and click continue to begin continue. Choose a name for your helpdesk and set a default email address to receive notifications for customer tickets. 
+
+
+
 
 
 
